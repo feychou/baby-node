@@ -1,11 +1,5 @@
 # Vanilla NodeJS
 
-Create a folder `exercises_vanila` then go to this folder in your terminal and execute:
-
-```
-npm init -y
-```
-
 ## Exercise 0 ([Help - NPM](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/))
 
 * What file did you create with the previous command?
