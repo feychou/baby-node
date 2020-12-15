@@ -1,5 +1,11 @@
 # Vanilla NodeJS
 
+Create a folder `baby_node` then `cd` into this folder in your terminal and execute:
+
+```
+npm init -y
+```
+
 ## Exercise 0 ([Help - NPM](https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/))
 
 * What file did you create with the previous command?
@@ -42,8 +48,8 @@ In a file `exercise5.js`:
 Copy this code and run it in the console. What's going on?
 
 ```
-var http = require('http');
-var server = http.createServer(function (request, response) {
+const http = require('http');
+const server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Hello World\n");
 });
