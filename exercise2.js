@@ -1,4 +1,4 @@
-const fs = require('fs');
+import fs from 'fs';
 
 fs.writeFile('test.html', 'hello', (err) => {
   if (err) throw err;

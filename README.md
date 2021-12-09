@@ -48,7 +48,7 @@ In a file `exercise5.js`:
 Copy this code and run it in the console. What's going on?
 
 ```
-const http = require('http');
+import http from 'http';
 const server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
   response.end("Hello World\n");
