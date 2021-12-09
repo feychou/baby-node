@@ -47,7 +47,7 @@ In a file `exercise5.js`:
 
 Copy this code and run it in the console. What's going on?
 
-```
+```js
 import http from 'http';
 const server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
